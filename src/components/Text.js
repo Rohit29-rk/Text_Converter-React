@@ -63,7 +63,7 @@ export default function Text(props) {
             </div>
             <div className="container my-2" id="sum" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
                 <h2>Text Summary</h2>
-                <p>Text has <b><u>{text.split(/\s/).filter((element)=> {return element.length!==0}).length}</u></b> words and <b><u>{text.length}</u></b>character</p>
+                <p>Text has <b><u>{text.split(/\s/).filter((element)=> {return element.length!==0}).length}</u></b> words and <b><u>{text.length}</u></b> character</p>
                 <p>It Takes <b><u>{0.008 * text.split(' ').filter((element)=> {return element.length!==0}).length}</u></b> minutes to read</p>
             </div>
             <div className="container" style={{color: props.mode === 'dark' ? 'white' : 'black' }}>
