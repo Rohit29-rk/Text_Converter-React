@@ -52,7 +52,7 @@ export default function Text(props) {
                         rows="8"></textarea>
                 </div>
                 <button disabled={text.length===0} className="btn btn-primary" onClick={uppercase}>Change to Uppercase</button>
-                <button disabled={text.length===0} className="btn btn-primary" onClick={lowercase}>Change to Lowecase</button>
+                <button disabled={text.length===0} className="btn btn-primary" onClick={lowercase}>Change to Lowercase</button>
                 
                 <button disabled={text.length===0} className="btn btn-primary" onClick={speech}>Convert Text to Speech</button>
                 <button disabled={text.length===0} className="btn btn-primary" onClick={capi}>Capitalize first Letter</button>
